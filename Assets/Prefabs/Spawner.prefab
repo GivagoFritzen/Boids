@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3559297176007848099
+--- !u!1 &7958065302569180767
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3559297176007848097}
-  - component: {fileID: 3559297176007848096}
+  - component: {fileID: 7958065302026662637}
+  - component: {fileID: 7958065302569180766}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -17,34 +17,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3559297176007848097
+--- !u!4 &7958065302026662637
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3559297176007848099}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.88, y: 4.74, z: -5.94}
+  m_GameObject: {fileID: 7958065302569180767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.13, y: 3.33, z: 5.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3559297176007848096
+--- !u!114 &7958065302569180766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3559297176007848099}
+  m_GameObject: {fileID: 7958065302569180767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 351b357d8278b4b8da32f976c630e4af, type: 3}
+  m_Script: {fileID: 11500000, guid: 6206168a2d42ac14ea9739157da72e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnRadius: 10
+  spawnCount: 10
+  showSpawnRegion: 1
   prefab: {fileID: 2931604500597588581, guid: a68eabc10bd1b4dcaa03efa0e2052ddb, type: 3}
-  spawnRadius: 4
-  spawnCount: 80
-  colour: {r: 1, g: 1, b: 1, a: 1}
-  showSpawnRegion: 2
+  target: {fileID: 0}

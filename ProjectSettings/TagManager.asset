@@ -16,7 +16,7 @@ TagManager:
   - Boid
   - Obstacle
   - Wall
-  - 
+  - BoidObstacle
   - 
   - 
   - 
